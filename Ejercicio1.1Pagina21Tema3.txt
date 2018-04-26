@@ -1,0 +1,12 @@
+Exercise 1.1 Which of the following sequences of characters are atoms, which are variables, and which are neither?
+
+vINCENT ------------------------> atom
+Footmassage --------------------> variable
+variable23 ---------------------> atom
+Variable2000 -------------------> variable
+big_kahuna_burger --------------> atom
+’big kahuna burger’ ------------> atom
+big kahuna burger --------------> neither
+’Jules’ ------------------------> atom
+_Jules -------------------------> variable
+’_Jules’ -----------------------> atom

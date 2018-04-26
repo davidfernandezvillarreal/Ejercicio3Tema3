@@ -1,0 +1,13 @@
+Exercise 1.2 Which of the following sequences of characters are atoms, which are variables, which are complex terms, and which 
+are not terms at all? Give the functor and arity of each complex term.
+
+loves(Vincent,mia) --------------------------> complex term. functor: loves. arity = 2
+’loves(Vincent,mia)’ ------------------------> atom
+Butch(boxer) --------------------------------> neither
+boxer(Butch) --------------------------------> complex term. functor: boxer. arity = 1
+and(big(burger),kahuna(burger)) -------------> complex term. functor: and. arity = 2
+and(big(X),kahuna(X)) -----------------------> complex term. functor: and. arity = 2
+_and(big(X),kahuna(X)) ----------------------> neither
+(Butch kills Vincent) -----------------------> neither
+kills(Butch Vincent) ------------------------> complex term. functor: kills. arity = 2
+kills(Butch,Vincent -------------------------> neither
